@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9b59b6;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCustomerFormController">
+   <children>
+      <Polygon fill="#f6f6f6" layoutX="125.0" layoutY="82.0" points="-125.0, 122.00001525878906, 147.66668701171875, 272.6666564941406, 116.33331298828125, -82.00000762939453" stroke="WHITE" strokeType="INSIDE" />
+      <Polygon fill="#f6f6f6" layoutX="368.0" layoutY="-38.0" points="-99.33331298828125, 48.66666030883789, -92.0, 128.66665649414062, 224.66668701171875, 92.66665649414062" stroke="WHITE" strokeType="INSIDE" />
+      <Polygon fill="#f6f6f6" layoutX="399.0" layoutY="58.0" points="190.33331298828125, 58.666656494140625, -112.33331298828125, 92.0, 43.0, 341.9999694824219" stroke="WHITE" strokeType="INSIDE" />
+      <JFXTextField fx:id="txtId" layoutX="108.0" layoutY="122.0" promptText="ID" />
+      <JFXTextField fx:id="txtName" layoutX="108.0" layoutY="161.0" promptText="Name" />
+      <JFXTextField fx:id="txtAddress" layoutX="108.0" layoutY="200.0" promptText="Address" />
+      <ComboBox fx:id="cmbTitle" layoutX="352.0" layoutY="161.0" prefWidth="150.0" promptText="Title" style="-fx-background-color: #9b59b6;" />
+      <Label alignment="CENTER" layoutX="300.0" layoutY="35.0" prefHeight="38.0" prefWidth="198.0" text="Add Customer Form ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="262.0" layoutY="287.0" onAction="#btnAddOnAction" prefHeight="25.0" prefWidth="114.0" text="Add" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <DatePicker fx:id="txtdob" layoutX="351.0" layoutY="212.0" prefHeight="25.0" prefWidth="158.0" promptText="DOB" style="-fx-background-color: #9b59b6;" />
+   </children>
+</AnchorPane>

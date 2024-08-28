@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9b59b6;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardFormController">
+   <children>
+      <Pane layoutX="133.0" layoutY="86.0" prefHeight="228.0" prefWidth="334.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <JFXButton layoutX="66.0" layoutY="42.0" onAction="#btnAddOnAction" prefHeight="46.0" prefWidth="211.0" style="-fx-background-color: #8e44ad;" text="Add Customer Form " textFill="WHITE" />
+            <JFXButton layoutX="66.0" layoutY="122.0" onAction="#btnViewOnAction" prefHeight="46.0" prefWidth="211.0" style="-fx-background-color: #8e44ad;" text="View  Customer Form " textFill="WHITE" />
+            <Polygon fill="#fbfbfb" layoutX="63.0" layoutY="143.0" points="-22.0, 171.00006103515625, 357.0, 171.00006103515625, 275.0, 121.6666259765625" stroke="WHITE" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Polygon fill="WHITE" layoutX="30.0" layoutY="53.0" points="-30.0, -53.000003814697266, 103.0, 32.99999237060547, 103.0, 261.0" stroke="WHITE" strokeType="INSIDE" />
+      <Polygon fill="WHITE" layoutX="517.0" layoutY="127.0" points="-50.0, -41.00000762939453, -50.0, 187.0, 83.33331298828125, 272.9999694824219" stroke="WHITE" strokeType="INSIDE" />
+      <Polygon fill="#fbfbfb" layoutX="32.0" layoutY="210.0" points="-32.0, 189.99996948242188, 102.0, 190.66659545898438, -32.0, -150.00006103515625" stroke="WHITE" strokeType="INSIDE" />
+      <Polygon fill="#fbfbfb" layoutX="536.0" layoutY="91.0" points="-78.00003051757812, -91.0, 64.33331298828125, 245.0, 64.33331298828125, -90.99999237060547" stroke="WHITE" strokeType="INSIDE" />
+      <Polygon fill="#fbfbfb" layoutX="138.0" layoutY="-101.0" points="-78.0, 101.00000762939453, 5.333343505859375, 154.33326721191406, 286.0, 101.00000762939453" stroke="WHITE" strokeType="INSIDE" />
+      <Polygon fill="#fbfbfb" layoutX="166.0" layoutY="214.0" points="-23.333343505859375, 121.6666259765625, -4.0, 169.99993896484375, 268.66668701171875, 121.6666259765625" stroke="WHITE" strokeType="INSIDE" />
+      <Polygon fill="#fbfbfb" layoutX="185.0" layoutY="-75.0" points="-23.0, 142.99993896484375, 271.66668701171875, 142.99993896484375, 248.33331298828125, 92.3332748413086" stroke="WHITE" strokeType="INSIDE" />
+      <Polygon fill="#9b59b6" layoutX="99.0" layoutY="178.0" points="-35.0, -26.666671752929688, 34.0, 136.0, 34.0, -92.66667175292969" stroke="#9b59b6" strokeType="INSIDE" />
+      <Polygon fill="#9b59b6" layoutX="488.0" layoutY="219.0" points="-22.0, 96.0, 57.33331298828125, 47.66668701171875, -22.0, -141.0" stroke="#9b59b6" strokeType="INSIDE" />
+      <Polygon fill="#9b59b6" layoutX="542.0" layoutY="158.0" points="-43.333343505859375, -62.66667175292969, 58.33331298828125, -69.33334350585938, -22.0, -158.0" stroke="#9b59b6" strokeType="INSIDE" />
+      <Polygon fill="#9b59b6" layoutX="52.0" layoutY="425.0" points="15.0, -24.333404541015625, 40.666656494140625, -124.33331298828125, -52.0, -95.66665649414062" stroke="#9b59b6" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewCustomerFormController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="187.0" layoutY="31.0" prefHeight="33.0" prefWidth="181.0" text="View Customer Form ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TableView layoutX="-2.0" layoutY="90.0" prefHeight="200.0" prefWidth="600.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="133.3333740234375" text="Name " />
+            <TableColumn prefWidth="167.99996948242188" text="Address" />
+            <TableColumn prefWidth="176.66668701171875" text="Date of Birth" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="274.0" layoutY="338.0" style="-fx-background-color: blue;" text="Reload" />
+   </children>
+</AnchorPane>
